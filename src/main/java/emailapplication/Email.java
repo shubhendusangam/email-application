@@ -81,11 +81,13 @@ public class Email {
       out.println("updated password : " + this.password);
    }
 
+   // show employee info
    public String showInfo() {
       out.println("---------------- Employee Info---------------------------");
       return employeeInfo();
    }
 
+   // Update Employee info
    public void  updateInfo() {
       do{
          out.println("P for update password \nA for update alternate Email \nM for update Mailbox capacity \nQ for Not to update anything");
